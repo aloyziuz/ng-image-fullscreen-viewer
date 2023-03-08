@@ -1,6 +1,6 @@
 {
-  "name": "ng-image-fullscreen-viewer",
-  "version": "3.0.3",
+  "name": "@aloysius-software-factory/ng-image-fullscreen-viewer",
+  "version": "13.0.0",
   "description": "An Angular responsive image full screen viewer. Also support youtube and mp4 video urls, captures swipes from phones and tablets, Compatible with Angular Universal, Captures keyboard next/previous arrow.",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,8 @@
     "build:watch": "ng build ng-image-fullscreen-view --watch",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e", 
+    "npm-publish": "cd dist/ng-image-fullscreen-view && npm publish --access public"
   },
   "files": [
     "dist/ng-image-fullscreen-view"
