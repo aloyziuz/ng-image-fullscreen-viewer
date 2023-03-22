@@ -13,6 +13,7 @@ import {
 import { DOCUMENT } from '@angular/common';
 import { DomSanitizer } from '@angular/platform-browser';
 import { NgImageFullscreenViewService } from './ng-image-fullscreen-view.service';
+import { FullscreenImage, FullscreenVideo } from './fullscreen-image';
 
 const LIGHTBOX_NEXT_ARROW_CLICK_MESSAGE = 'lightbox next',
     LIGHTBOX_PREV_ARROW_CLICK_MESSAGE = 'lightbox previous';
@@ -45,7 +46,7 @@ export class NgImageFullscreenViewComponent implements OnDestroy {
     //@ViewChild('lightboxImageDiv') lightboxImageDiv;
 
     // @Inputs
-    @Input() images: Array<object> = [];
+    @Input() images: Array<FullscreenImage | FullscreenVideo> = [];
     @Input()
     set imageIndex(index: any) {
         if (index !== undefined && index > -1 && index < this.images.length) {
