@@ -1,6 +1,6 @@
 {
-  "name": "ng-image-fullscreen-viewer",
-  "version": "3.0.3",
+  "name": "@aloysius-software-factory/ng-image-fullscreen-viewer",
+  "version": "13.0.0",
   "description": "An Angular responsive image full screen viewer. Also support youtube and mp4 video urls, captures swipes from phones and tablets, Compatible with Angular Universal, Captures keyboard next/previous arrow.",
   "license": "MIT",
   "scripts": {
@@ -10,47 +10,48 @@
     "build:watch": "ng build ng-image-fullscreen-view --watch",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e", 
+    "npm-publish": "cd dist/ng-image-fullscreen-view && npm publish --access public"
   },
   "files": [
     "dist/ng-image-fullscreen-view"
   ],
   "dependencies": {
-    "@angular/animations": "^11.0.7",
-    "@angular/common": "^11.0.7",
-    "@angular/compiler": "^11.0.7",
-    "@angular/core": "^11.0.7",
-    "@angular/forms": "^11.0.7",
-    "@angular/platform-browser": "^11.0.7",
-    "@angular/platform-browser-dynamic": "^11.0.7",
-    "@angular/router": "^11.0.7",
+    "@angular/animations": "^13.3.12",
+    "@angular/common": "^13.3.12",
+    "@angular/compiler": "^13.3.12",
+    "@angular/core": "^13.3.12",
+    "@angular/forms": "^13.3.12",
+    "@angular/platform-browser": "^13.3.12",
+    "@angular/platform-browser-dynamic": "^13.3.12",
+    "@angular/router": "^13.3.12",
     "core-js": "^3.4.5",
     "rxjs": "^6.5.3",
     "rxjs-compat": "^6.0.0-rc.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.11.8"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.6",
-    "@angular-devkit/core": "^11.0.6",
-    "@angular/cli": "^11.0.6",
-    "@angular/compiler-cli": "^11.0.7",
-    "@angular/language-service": "^11.0.7",
+    "@angular-devkit/build-angular": "~13.3.10",
+    "@angular-devkit/core": "^13.3.10",
+    "@angular/cli": "^13.3.10",
+    "@angular/compiler-cli": "^13.3.12",
+    "@angular/language-service": "^13.3.12",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~5.0.0",
-    "karma": "^5.0.0",
+    "karma": "^6.4.1",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.7.0",
-    "ng-packagr": "^11.0.0",
+    "ng-packagr": "^13.3.1",
     "protractor": "~7.0.0",
     "ts-node": "~8.5.3",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.5"
+    "typescript": "~4.6.4"
   }
 }

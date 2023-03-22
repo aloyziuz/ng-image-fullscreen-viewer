@@ -3,7 +3,7 @@
 An Angular responsive image fullscreen viewer.
 Also support youtube and mp4 video urls.
 
-(Compatible with Angular Version: 11)
+(Compatible with Angular Version: 13)
 
 ## Features!
 
