@@ -1,42 +1,42 @@
 {
   "name": "@aloysius-software-factory/ng-image-fullscreen-viewer",
-  "version": "13.0.0",
+  "version": "20.0.0",
   "description": "An Angular responsive image full screen viewer. Also support youtube and mp4 video urls, captures swipes from phones and tablets, Compatible with Angular Universal, Captures keyboard next/previous arrow.",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4100 --host 0.0.0.0",
-    "build": "ng build ng-image-fullscreen-view --configuration production --prod",
+    "build": "ng build ng-image-fullscreen-view --configuration production",
     "build:watch": "ng build ng-image-fullscreen-view --watch",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e", 
-    "npm-publish": "cd dist/ng-image-fullscreen-view && npm publish --access public"
+    "npm-publish": "npm run build && cd dist/ng-image-fullscreen-view && npm publish --access public"
   },
   "files": [
     "dist/ng-image-fullscreen-view"
   ],
   "dependencies": {
-    "@angular/animations": "^13.3.12",
-    "@angular/common": "^13.3.12",
-    "@angular/compiler": "^13.3.12",
-    "@angular/core": "^13.3.12",
-    "@angular/forms": "^13.3.12",
-    "@angular/platform-browser": "^13.3.12",
-    "@angular/platform-browser-dynamic": "^13.3.12",
-    "@angular/router": "^13.3.12",
+    "@angular/animations": "^20.3.0",
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/platform-browser-dynamic": "^20.3.0",
+    "@angular/router": "^20.3.0",
     "core-js": "^3.4.5",
-    "rxjs": "^6.5.3",
-    "rxjs-compat": "^6.0.0-rc.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.8"
+    "rxjs": "^7.4.0",
+    "rxjs-compat": "^6.6.7",
+    "tslib": "^2.4.0",
+    "zone.js": "~0.11.5"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.3.10",
-    "@angular-devkit/core": "^13.3.10",
-    "@angular/cli": "^13.3.10",
-    "@angular/compiler-cli": "^13.3.12",
-    "@angular/language-service": "^13.3.12",
+    "@angular-devkit/build-angular": "~20.3.0",
+    "@angular-devkit/core": "^20.3.0",
+    "@angular/cli": "^20.3.0",
+    "@angular/compiler-cli": "^20.3.0",
+    "@angular/language-service": "^20.3.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^12.11.1",
@@ -48,10 +48,10 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.7.0",
-    "ng-packagr": "^13.3.1",
+    "ng-packagr": "^20.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.5.3",
     "tslint": "~6.1.0",
-    "typescript": "~4.6.4"
+    "typescript": "^5.9.3"
   }
 }

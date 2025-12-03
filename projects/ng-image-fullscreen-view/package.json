@@ -1,10 +1,10 @@
 {
   "name": "@aloysius-software-factory/ng-image-fullscreen-view",
-  "version": "13.0.0",
+  "version": "20.0.0",
   "description": "An Angular responsive image full screen viewer. Also support youtube and mp4 video urls, captures swipes from phones and tablets, Compatible with Angular Universal, Captures keyboard next/previous arrow.",
   "peerDependencies": {
-    "@angular/common": "^13.3.12",
-    "@angular/core": "^13.3.12"
+    "@angular/common": "^20.3.0",
+    "@angular/core": "^20.3.0"
   },
   "keywords": [
     "Angular",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/sanjayV/ng-image-fullscreen-viewer",
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.4.0"
   },
   "bugs": {
     "url": "https://github.com/sanjayV/ng-image-fullscreen-viewer/issues"
